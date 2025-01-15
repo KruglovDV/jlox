@@ -10,6 +10,8 @@ public class Lox {
     static boolean hadError = false;
 
     public static void main(String[] args) throws IOException {
+        // var args = new String[] {"./fixtures/simple-script"};
+
         if (args.length > 1) {
             System.out.println("Usage: jlox [script]");
             System.exit(64);
